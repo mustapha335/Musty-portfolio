@@ -32,7 +32,11 @@
 .p:hover .p-img {
   transform: translateY(-50%);
 }
-
+.p-txt{
+ color: rgba(75, 101, 135,0.5);
+ margin-top: 0;
+ 
+}
 @media screen and (max-width: 480px) {
   .p {
     width: 40%;

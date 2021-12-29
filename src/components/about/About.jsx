@@ -21,7 +21,7 @@ const About = () => {
           readable content.
         </p> */}
         <p className="a-desc">
-        I am a self-taught developer with a passion for coding and UI. I’m really proud of my determination and goal-focused mindset which drives me to completing projects so promptly. Always eager to learn more skills, I can’t wait to progress further in my career.
+        I am a frondend web developer with a passion for coding and UI. I’m really proud of my determination and goal-focused mindset which drives me to completing projects so promptly. Always eager to learn more skills, I can’t wait to progress further in my career.
         </p>
         {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
