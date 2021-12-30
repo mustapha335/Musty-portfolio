@@ -20,7 +20,7 @@ export const products = [
   {
     id: 3,
 
-    link: "http://lama.dev",
+    link: "https://github.com/mustapha335/kalm-ui.git",
     img:kalm,
     name:"Kalm E-Commerce"
   },
