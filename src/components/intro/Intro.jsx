@@ -1,6 +1,10 @@
 import "./intro.css";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className='i'>
       <div className='i-left'>
@@ -9,8 +13,16 @@ const Intro = () => {
           <h1 className='i-name'>Abdulmuiz Mustapha</h1>
           <div className='i-title'>
             <div className='i-title-wrapper'>
-              <div className='i-title-item'>Web Developer</div>
-              <div className='i-title-item'>UI/UX Designer</div>
+              <div
+                className='i-title-item'
+                style={{ color: darkMode && "#6d6d6d" }}>
+                Frontend Developer
+              </div>
+              <div
+                className='i-title-item'
+                style={{ color: darkMode && "#6d6d6d" }}>
+                UI/UX Designer
+              </div>
             </div>
           </div>
           <p className='i-desc'>

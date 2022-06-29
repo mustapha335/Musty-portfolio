@@ -2,7 +2,7 @@
   width: 30%;
   height: 30vh;
   margin: 20px 10px;
-  border: 2px solid rgb(243, 242, 242);
+  border: 2px solid rgb(54, 54, 54);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
@@ -32,10 +32,4 @@
 .p-txt {
   color: grey;
   margin-top: 0;
-}
-@media screen and (max-width: 820px) {
-  .p {
-    width: 40%;
-    height: 20vh;
-  }
 }

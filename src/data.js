@@ -5,7 +5,6 @@ import midnight from "./img/midnight.png";
 export const products = [
   {
     id: 1,
-
     link: "https://home-and-stay.vercel.app/",
     img: homenstay,
     name: "HomenStay",
@@ -21,7 +20,7 @@ export const products = [
 
     link: "https://flex-gym.vercel.app/",
     img: flexGym,
-    name: "Flex Gym",
+    name: "Flex Gym ",
   },
   {
     id: 4,
