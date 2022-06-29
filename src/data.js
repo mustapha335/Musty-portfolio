@@ -1,43 +1,32 @@
-import homenstay from "./img/homenstay.png"
-import kalm from "./img/Kalm.png"
-import adminPage from "./img/adminPage.png"
-import uberClone from "./img/uber-clone.png"
+import homenstay from "./img/homenstay.png";
+import flexGym from "./img/flexGym.png";
+import spaceX from "./img/spaceX.png";
+import midnight from "./img/midnight.png";
 export const products = [
-
   {
     id: 1,
-    
+
     link: "https://home-and-stay.vercel.app/",
-    img:homenstay,
-    name:"HomenStay"
+    img: homenstay,
+    name: "HomenStay",
   },
   {
     id: 2,
-    link: "https://admin-dashboard-panel.netlify.app/",
-    img:adminPage,
-    name:"Admin Page"
+    link: "https://space-x-wine.vercel.app/",
+    img: spaceX,
+    name: "SpaceX",
   },
   {
     id: 3,
 
-    link: "https://github.com/mustapha335/kalm-ui.git",
-    img:kalm,
-    name:"Kalm E-Commerce"
+    link: "https://flex-gym.vercel.app/",
+    img: flexGym,
+    name: "Flex Gym",
   },
   {
     id: 4,
-    img: uberClone,
-    link: "https://github.com/mustapha335/uber-clone",
-    name:"Uber-Clone"
+    img: midnight,
+    link: "https://midnight-tau.vercel.app/",
+    name: "Midnight.",
   },
-  // {
-  //   id: 5,
-  //   img: "",
-  //   link: "http://lama.dev",
-  // },
-  // {
-  //   id: 6,
-  //   img: "",
-  //   link: "http://lama.dev",
-  // },
 ];

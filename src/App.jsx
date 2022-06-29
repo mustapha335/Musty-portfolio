@@ -12,11 +12,9 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
+        backgroundColor: darkMode ? "#222" : "rgb(228, 220, 207)",
         color: darkMode && "white",
-        width:"100%"
-      }}
-    >
+      }}>
       <Toggle />
       <Intro />
       <About />
