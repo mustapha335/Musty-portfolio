@@ -1,6 +1,6 @@
 import homenstay from "./img/homenstay.png";
 import flexGym from "./img/flexGym.png";
-import spaceX from "./img/spaceX.png";
+import headphones from "./img/headphones.png";
 import midnight from "./img/midnight.png";
 export const products = [
   {
@@ -11,9 +11,9 @@ export const products = [
   },
   {
     id: 2,
-    link: "https://space-x-wine.vercel.app/",
-    img: spaceX,
-    name: "SpaceX",
+    link: "https://sanity-ecommerce-two.vercel.app/",
+    img: headphones,
+    name: "Headphones Ecommerce",
   },
   {
     id: 3,
